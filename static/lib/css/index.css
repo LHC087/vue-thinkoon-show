@@ -1,0 +1,146 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+.head {
+	width: 1440px;
+	/*height: 900px;*/
+}
+
+.head-top {
+	height: 763px;
+}
+
+.head-top-left,
+.head-top-right {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 49%;
+	height: 100%
+}
+
+.phoneBg {
+	position: absolute;
+	top: 190px;
+	background-image: url(../img/left-bg.png);
+	width: 722px;
+	height: 335px;
+	text-align: center;
+}
+
+.iphone {
+	position: absolute;
+	top: -90px;
+	left: 180px;
+}
+
+.iphone-content {
+	position: absolute;
+	top: -20px;
+	left: 231px;
+}
+
+.head-top-right .right-content {
+	margin-top: 202px;
+	width: 100%;
+	text-align: center;
+}
+
+.right-content p {
+	font-family: SourceHanSansCN-Regular;
+	font-size: 48px;
+	color: #333;
+	margin-bottom: 21px;
+}
+
+.logoImg {
+	margin-bottom: 38px
+}
+
+.phone-panel {
+	margin-top: 39px;
+	display: inline-block;
+	width: 255px;
+	height: 90px;
+	line-height: 90px;
+	border: 2px solid #f38212;
+	border-radius: 45px 45px 45px 45px;
+	text-align: center;
+	cursor:pointer;
+	position: relative;
+}
+.code{
+	position: absolute;
+	left: -15px;
+	bottom: -350%;
+}
+.phone-panel-img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.phone-panel-info {
+	vertical-align: middle;
+	display: inline-block;
+	color: #474747;
+	font-family: SourceHanSansCN-Regular;
+	font-size: 27px;
+	line-height: 44px;
+	height: 44px
+}
+
+.phone-panel-info img {
+	display: inline-block
+}
+
+.phone-panel-left {
+	margin-right: 50px
+}
+
+.noHl {
+	border: 2px solid #474747
+}
+
+.phone-panel-info-hl {
+	color: #f38212;
+}
+
+.head-bottom {
+	border-top: 1px solid #ccc;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 3px 0;
+	background-color: #eee;
+}
+
+.head-bottom-ul {
+	width: 100%;
+	height: 100%
+}
+
+.head-bottom-ul li {
+	text-align: center;
+	font-family: SourceHanSansCN-Regular;
+	font-size: 14px;
+	color: #656565;
+	height: 27px;
+	line-height: 27px;
+}
+
+.head-bottom-ul li a {
+	color: #656565;
+}
+
+#right-content-p2 {
+	color: #787878;
+}
+
+@media screen and (min-width: 1441px) {
+	.head {
+		width: 100%;
+	}
+}

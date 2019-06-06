@@ -1,0 +1,39 @@
+.page-secoo-bg {
+	height: 1351px;
+}
+.page-secoo-summary{
+	position: relative;
+	padding-bottom: 0;
+	height: 844px;
+}
+.page-secoo-4{
+	position: absolute;
+    top: 300px;
+    left: 980px;
+    width: 500px;
+    height: 300px;
+    color: #fff;
+}
+.page-secoo-4 h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.page-secoo-4 p {
+    color: #fff;
+    font-size: 16px;
+}
+@media only screen and (min-width: 100px) and (max-width: 1440px) {
+	.page-secoo-bg {
+		height: 1024px;
+	}
+	.page-secoo-summary{
+		position: relative;
+		padding-bottom: 0;
+		height: 620px;
+	}
+	.page-secoo-4{
+		top: 130px;
+		left: 700px;
+	}
+}

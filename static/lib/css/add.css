@@ -1,0 +1,290 @@
+@font-face {
+	font-family: hyxm;
+	src: url(../fonts/hyxm.ttf);
+}
+
+
+/*首页悬浮框*/
+
+.fix-suspension {
+	position: fixed;
+	left: 70px;
+	top: 230px;
+	z-index: 999;
+}
+.fix-suspensionshow {
+	position: fixed;
+	left: 0px;
+	top: 230px;
+	z-index: 999;
+}
+.kol-title,
+.kol-scb {
+	color: #000000;
+	font-weight: bold;
+}
+
+.kol-title {
+	margin-bottom: 35px;
+}
+
+.kol-p {
+	margin-top: 35px;
+}
+
+.widgets {
+	margin: 0 auto;
+}
+
+#banner-IP-card1,
+#banner-IP-card2 {
+	width: 309px;
+	height: 194px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+
+/*新增banner*/
+
+#banner-seafood-box {
+	width: 489px;
+	height: 205px;
+}
+
+.banner-seafood {
+	position: absolute;
+	top: 50px;
+	right: 25px;
+	width: 716px;
+	height: 533px;
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+	.banner-seafood {
+		top: 80px;
+		width: 477.3px;
+		height: 355.3px;
+	}
+	#banner-seafood-box {
+		width: 326px;
+		height: 136.6px;
+	}
+	.banner-card {
+		top: 180px;
+		right: 15px;
+	}
+	#miss-box {
+		top: 100px;
+	}
+	.fix-suspension {
+	
+		left: 20px;
+		top: 230px;
+	}
+}
+
+.item:hover {
+	cursor: pointer;
+}
+
+
+/*授权页面*/
+
+@media only screen and (min-width: 1450px) and (max-width: 1920px) {
+	.page-bg-1 {
+		padding-top: 130px;
+	}
+	.page-bg-common {
+		padding-top: 87px;
+	}
+}
+
+.page-GrowUp,
+.page-cooperation {
+	margin: 0 auto 90px auto;
+	width: 100%;
+	padding-bottom: 0px;
+}
+
+.page-GrowUp-img {
+	display: block;
+	margin: 49px auto;
+	width: 1440px;
+}
+
+.page-cooperation-img {
+	display: block;
+	margin: 70px auto;
+	width: 1120px;
+}
+
+.page-nndw-introduce {
+	margin: 0 auto;
+	width: 1440px;
+	height: 490px;
+}
+
+.page-nndw-dw-introduce {
+	margin: 0 auto;
+	width: 1440px;
+	height: 320px;
+}
+
+.introduce-text,
+.introduce-img {
+	height: 490px;
+	/*border: 1px solid;*/
+}
+
+.introduce-text {
+	padding: 150px 45px 0 85px;
+	font-size: 16px;
+	color: #424242;
+	height: 340px;
+}
+
+.introduce-text-label {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.introduce-text-li {
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.introduce-text-ul {
+	width: 425px;
+}
+
+.introduce-dw-img-ul {
+	padding-left: 85px;
+}
+
+.introduce-img-li {
+	display: inline-block;
+	margin-right: 29px;
+}
+
+.introduce-dw-img-li {
+	display: inline-block;
+	width: 24%;
+}
+
+.introduce-img {
+	padding: 84px 0 0 0;
+}
+
+.introduce-title {
+	padding: 53px 0 23px 0;
+	font-size: 24px;
+	font-family: hyxm;
+	text-align: center;
+	color: #C4181F;
+}
+
+.introduce-title-bottom {
+	/*border: 1px solid;*/
+	text-align: center;
+	height: 2px;
+}
+
+.introduce-title-bottom div {
+	width: 40px;
+	height: 2px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+.introduce-img-name,
+.introduce-dw-img-name {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 18px;
+	/*font-weight: bold;*/
+	color: #000;
+}
+
+.page-border {
+	width: 100%;
+	height: 22px;
+}
+
+.main-slider .noMask:after {
+	background-color: rgba(0, 0, 0, .0);
+}
+
+.seaFoodFont,
+.miss-boxFont {
+	color: #C4181F;
+}
+
+.redBlock {
+	width: 58px;
+	height: 12px;
+	background-color: #C4181F;
+}
+
+.main-slider .ip-slider-content {
+	top: 30%;
+}
+
+.main-slider .ip-slider-content-card {
+	top: 40%;
+}
+
+#banner-miss-top {
+	width: 620px;
+	height: 130px;
+	margin: 0 auto 100px auto;
+}
+
+#ip-miss-box {
+	top: 220px;
+	right: 250px;
+	width: 499px;
+	height: 378px;
+}
+
+.banner-miss-box-left {
+	width: 586px;
+}
+
+.main-slider .item .banner-miss-box-left img {
+	display: inline-block;
+	width: 183px;
+	height: 183px;
+	margin-right: 8px;
+}
+
+.miss-boxFont-title {
+	font-size: 36px;
+}
+#banner-seafood-nndw{
+	position: absolute;
+	width: 716px;
+	/*height: 533px;*/
+	top: -50px;
+	right: 160px;
+}
+.main-slider .seaFood-slider-content{
+	top: 35%;
+}
+@media only screen and (min-width: 1330px) and (max-width: 1440px) {
+	#ip-miss-box {
+		top: 220px;
+		right: 150px;
+		width: 422px;
+		height: 321px;
+	}
+	#banner-miss-top{
+		margin: 0 auto 50px auto;
+	}
+	/* #banner-seafood-nndw{
+		
+	} */
+}
+.seaFoodFont-title{
+	font-size: 36px;
+}

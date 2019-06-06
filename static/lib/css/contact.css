@@ -1,0 +1,169 @@
+	.tag {
+		display: inline-block;
+		padding: 5px 15px;
+		border-radius: 5px;
+		color: #fe7e00;
+		border: 1px solid #fe7e00;
+		background-color: #fff7cd;
+		-webkit-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+		font-size: 14px;
+		line-height: 21px;
+		cursor: pointer;
+	}
+	.recruit-list .tag{
+		color: #fe7e00;
+	}
+	.tag1{
+		margin-top: 25px;
+	}
+	.recruit-list .contact-tag{
+		color: #C4181F;
+		font-size: 16px;
+	}
+	.contact-tag i {
+		color: #C4181F;
+		font-size: 18px;
+	}
+	.recruit-list p{
+		font-size: 18px;
+		color: #000;
+	}
+.good-img{
+	display: inline-block;
+	float: left;
+	padding-bottom: 10px;
+	margin-right: 10px;
+}
+.good-text{
+	font-size: 14px;
+	color: #666;
+	height: 28px;
+	line-height: 28px;
+}
+.clear{
+	clear: both;
+}
+.job-describe{
+	/* float: ; */
+}
+.red-block{
+	display: inline-block;
+ 	float: left;
+	width: 8px;
+	height: 22px;
+	margin-right: 10px;
+	background-color: #C4181F;
+}
+.job-name{
+	height: 22px;
+	line-height: 22px;
+	color: #C4181F;
+}
+.job-money{
+	font-size: 16px;
+	color: #FE7E00;
+}
+.job-describe{
+	/*font-size: 16px;*/
+	color: #000;
+}
+.job-tab-div{
+	width: 725px;
+	margin: 0 auto;
+	position: relative;
+}
+.job-tab{
+	width: 720px;
+	height: 60px;
+	border: none;
+	box-shadow: 0px 0px 5px #000;
+	position: absolute;
+	background-color: #fff;
+	top: -100px;
+}
+.job-tab li{
+	display:inline;
+	height:100%;
+	text-align: center;
+}
+.job-tab a{
+	display: block;
+	line-height: 60px;
+	height: 60px;
+	
+}
+.job-tab>li>a:active{
+	border-bottom: 3px solid #C4181F;
+	color: #C4181F;
+}
+.job-tab>li>a.active{
+	border-bottom: 3px solid #C4181F;
+	color: #C4181F;
+}
+.job-tab>li>a:hover{
+	border-bottom: 3px solid #C4181F;
+	color: #C4181F;
+}
+.job-tab>li>a:focus{
+	border-bottom: 3px solid #C4181F;
+	color: #C4181F;
+}
+
+/*联系我们*/
+.company-title{
+	position: absolute;
+	top: 30%;
+	left: 109px;
+	color: #000;
+	font-size: 24px;
+}
+.company-name,.company-wechat,.company-QQ,.company-telephone,.company-address{
+	position: absolute;
+	left:140px ;
+	color: #000;
+	font-size: 16px;
+	line-height: 33px;
+}
+.company-name{
+	top: 233px;
+}
+.company-wechat{
+	top: 266px;
+}
+.company-QQ{
+	top: 42%;
+}
+.company-telephone{
+	top: 47%;
+}
+.company-address{
+	top: 51.5%;
+}
+@media (min-width:767px) and (max-width:1023px){
+	.company-title{
+		font-size:16px;
+	}
+	.company-name,.company-wechat,.company-QQ,.company-telephone,.company-address{
+		position: absolute;
+		left:14% ;
+		color: #000;
+		font-size: 8px;
+		line-height: 24px;
+	}
+}
+@media (max-width:767px){
+	.company-title{
+		font-size:8px;
+		left: 14%;
+    top: 25%;
+	}
+	.company-name,.company-wechat,.company-QQ,.company-telephone,.company-address{
+		position: absolute;
+		left:18% ;
+		color: #000;
+		font-size: 8px;
+		line-height: 12px;
+	}
+}
